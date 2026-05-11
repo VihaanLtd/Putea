@@ -1,0 +1,18 @@
+node_modules/
+.vite/
+dist/
+.env.local
+.env
+*.log
+api/.cache.json
+api/putea.db
+api/putea.db-shm
+api/putea.db-wal
+node_modules
+
+# Local-only personal config (real emails, properties, company seeds, AI context).
+# Never publish — use api/personal.example.js as the template.
+api/personal.js
+
+# Personal build briefs / notes — often contain financial figures and addresses.
+claude-code-instructions-*.md
